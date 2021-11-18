@@ -1,0 +1,195 @@
+                                             /* mobile and tablet */
+                                             
+                                             @media (max-width:1024px) {
+                                                 .header-top {
+                                                     display: none;
+                                                 }
+                                                 .header-bottom {
+                                                     position: fixed;
+                                                     top: 0;
+                                                     z-index: 10;
+                                                     background-color: var(--while-color);
+                                                     left: 0;
+                                                     right: 0;
+                                                 }
+                                                 .header-bottom-item {
+                                                     display: none;
+                                                 }
+                                                 .backgroud-top-img {
+                                                     height: 500px;
+                                                 }
+                                                 .header-bottom-list {
+                                                     justify-content: flex-end;
+                                                 }
+                                                 .header-bottom-booking {
+                                                     font-size: 18px;
+                                                 }
+                                                 .slider-content {
+                                                     display: none;
+                                                 }
+                                                 .search-intput-container {
+                                                     display: none;
+                                                     position: fixed;
+                                                     z-index: 6;
+                                                     top: var(--height-header);
+                                                     left: 0;
+                                                     right: 0;
+                                                     height: 86px;
+                                                     width: 100%;
+                                                     justify-content: space-between;
+                                                     padding: 0 7% 0 7%;
+                                                     align-items: center;
+                                                     animation: fadeInSearch linear 0.5s;
+                                                 }
+                                                 @keyframes fadeInSearch {
+                                                     from {
+                                                         transform: translateY(-86px);
+                                                     }
+                                                     to {
+                                                         transform: translateY(0);
+                                                     }
+                                                 }
+                                                 .search-input-fix {
+                                                     width: 100%;
+                                                 }
+                                                 .search-input-btn {
+                                                     display: flex;
+                                                     align-items: center;
+                                                     justify-content: center;
+                                                 }
+                                                 .header-top-menu-icon i,
+                                                 .header-top-search-icon i {
+                                                     display: block;
+                                                 }
+                                                 .search-input-btn,
+                                                 .search-input-content {
+                                                     width: 100%;
+                                                 }
+                                                 .body {
+                                                     margin-top: var(--height-header);
+                                                 }
+                                                 .checkbox-search:checked~.search-intput-container {
+                                                     display: flex;
+                                                 }
+                                                 .before-content-bar {
+                                                     order: -1;
+                                                 }
+                                                 .content-packages-img {
+                                                     display: block;
+                                                     width: 200px;
+                                                 }
+                                                 .footer-contact {
+                                                     margin-bottom: 56px;
+                                                 }
+                                                 .footer-contact.last-footer-contact {
+                                                     margin-bottom: 0;
+                                                 }
+                                             }
+                                             /* tablet */
+                                             
+                                             @media (min-width:740px) and (max-width:1023px) {}
+                                             /* mobile */
+                                             
+                                             @media (max-width:739px) {
+                                                  :root {
+                                                     --height-header: 46px;
+                                                 }
+                                                 .main {
+                                                     width: 100%;
+                                                     overflow: hidden;
+                                                     -webkit-tap-highlight-color: transparent;
+                                                 }
+                                                 .header-bottom {
+                                                     padding: 0 8px;
+                                                 }
+                                                 .header-brand {
+                                                     display: flex;
+                                                     align-items: center;
+                                                     height: var(--height-header);
+                                                 }
+                                                 .header-brand a {
+                                                     font-size: 22px;
+                                                     margin-right: unset;
+                                                 }
+                                                 .search-intput-container {
+                                                     padding: 0;
+                                                 }
+                                                 .header-bottom-container {
+                                                     height: 100%;
+                                                 }
+                                                 .header-bottom-booking {
+                                                     font-size: 14px;
+                                                     padding: 4px;
+                                                 }
+                                                 .backgroud-top-img {
+                                                     background-size: contain;
+                                                     height: 350px;
+                                                     width: 100%;
+                                                 }
+                                                 .height-header-mobile {
+                                                     height: 100%;
+                                                 }
+                                                 .header-top-menu-icon i {
+                                                     padding: 0;
+                                                     font-size: 18px;
+                                                 }
+                                                 .header-top-search-icon i {
+                                                     padding: 0;
+                                                     font-size: 18px;
+                                                 }
+                                                 .search-intput-container {
+                                                     height: var(--height-header);
+                                                     padding: 0;
+                                                 }
+                                                 .menu-link {
+                                                     margin: 16px 16px;
+                                                     font-size: 16px;
+                                                 }
+                                                 .background-top-animation {
+                                                     left: 24px;
+                                                 }
+                                                 .background-top-animation h1 {
+                                                     font-size: 25px;
+                                                 }
+                                                 .background-top-animation h2 {
+                                                     font-size: 30px;
+                                                     margin: 16px 0 16px 8px
+                                                 }
+                                                 .background-top-city {
+                                                     font-size: 18px;
+                                                 }
+                                                 .background-top-city .backgound-top-tour {
+                                                     font-size: 25px;
+                                                 }
+                                                 .background-top-animation h4 {
+                                                     font-size: 30px;
+                                                     margin-left: 100px;
+                                                 }
+                                                 .content-discription-btn {
+                                                     font-size: 12px;
+                                                 }
+                                                 .background-top-sale {
+                                                     top: -13px;
+                                                     padding: 0 12px;
+                                                     font-size: 14px;
+                                                 }
+                                                 .content-target-img {
+                                                     height: 450px;
+                                                 }
+                                                 .content-target-row {
+                                                     flex-direction: column;
+                                                 }
+                                                 .content-packages {
+                                                     flex-direction: column;
+                                                 }
+                                                 .content-packages-img {
+                                                     width: 100%;
+                                                 }
+                                                 .footer-contact {
+                                                     text-align: center;
+                                                     width: 100%;
+                                                 }
+                                                 .footer-contact-input {
+                                                     justify-content: center;
+                                                 }
+                                             }
